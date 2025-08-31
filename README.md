@@ -44,4 +44,17 @@ We evaluate five state-of-the-art LLMs on TAAROFBENCH and compare their performa
 
 ---
 
+## 🔗 Paper & Citation
+
+If you use this dataset, please cite our paper:
+
+```bibtex
+@inproceedings{gohari2025taarofbench,
+  title     = {We Politely Insist: Your LLM Must Learn the Persian Art of Taarof},
+  author    = {Nikta Gohari Sadr and Sahar Heidariasl and Karine Megerdoomian and 
+               Laleh Seyyed-Kalantari and Ali Emami},
+  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2025}
+}
+
 
