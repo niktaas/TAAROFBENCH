@@ -2,9 +2,9 @@
 
 This repository hosts the dataset introduced in the paper:
 
-**We Politely Insist: Your LLM Must Learn the Persian Art of Taarof**  
-*Nikta Gohari Sadr, Sahar Heidariasl, Karine Megerdoomian, Laleh Seyyed-Kalantari, and Ali Emami*  
-Accepted at the **Main Conference of EMNLP 2025**
+> **We Politely Insist: Your LLM Must Learn the Persian Art of Taarof**  
+> Nikta Gohari Sadr, Sahar Heidariasl, Karine Megerdoomian, Laleh Seyyed-Kalantari, and Ali Emami.  
+> *Accepted at the **Main Conference of EMNLP 2025***.
 
 ---
 
@@ -34,3 +34,22 @@ Each scenario in **TAAROFBENCH** is represented with the following fields:
 - **Annotations**: cultural expectations describing the appropriate response (e.g., “It is expected that you insist on paying”).  
 
 ---
+
+## 📈 Results Snapshot
+
+We evaluate five state-of-the-art LLMs on TAAROFBENCH and compare their performance with human baselines. Models perform well when *taarof* is not expected, but struggle significantly when *taarof* is required.
+
+| Model            | Taarof-Expected | Non-Taarof | Overall |
+|------------------|-----------------|------------|---------|
+| GPT-4o           | 38.6%           | 88.4%      | 56.2%   |
+| Claude 3.5       | 37.0%           | 85.7%      | 52.4%   |
+| DeepSeek V3      | 40.7%           | 90.5%      | **56.2%** |
+| Dorna            | 40.7%           | 81.8%      | 52.0%   |
+| Llama-3-8B       | **42.0%**       | 87.1%      | 54.8%   |
+| Llama-3-8B + SFT | 57.6%           | 92.3%      | 65.7%   |
+| Llama-3-8B + DPO | **79.5%**       | 93.3%      | **73.2%** |
+| **Humans (Native)** | **81.8%**    | **90.9%**      | **85%** |
+
+---
+
+
