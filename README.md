@@ -1,17 +1,18 @@
 # We Politely Insist: Your LLM Must Learn the Persian Art of Taarof
 
-This repository hosts the dataset introduced in the paper:
+This repository hosts **TAAROFBENCH**, the first benchmark for evaluating large language models on *taarof*, a social norm in Iranian interactions that represents a sophisticated system of ritual politeness emphasizing deference, modesty, and indirectness. The benchmark was introduced in the paper:
 
 > **We Politely Insist: Your LLM Must Learn the Persian Art of Taarof**  
-> Nikta Gohari Sadr, Sahar Heidariasl, Karine Megerdoomian, Laleh Seyyed-Kalantari, and Ali Emami.  
-> *Accepted at the **Main Conference of EMNLP 2025***.
+> Nikta Gohari Sadr, Sahar Heidariasl, Karine Megerdoomian, Laleh Seyyed-Kalantari, and Ali Emami  
+> *Accepted at the **Main Conference of EMNLP 2025***  
 
 ---
 
-## 📄 Abstract
+## 📖 Overview
 
-Large language models (LLMs) struggle to navigate culturally specific communication norms, limiting their effectiveness in global contexts. We focus on Persian taarof, a social norm in Iranian interactions, which is a sophisticated system of ritual politeness that emphasizes deference, modesty, and indirectness, yet remains absent from existing cultural benchmarks. We introduce TAAROFBENCH, the first benchmark for evaluating LLM understanding of taarof, comprising 450 role-play scenarios covering 12 common social interaction topics, validated by native speakers. Our evaluation of five frontier LLMs reveals substantial gaps in cultural competence, with accuracy rates 40-48% below native speakers when taarof is culturally appropriate. Performance varies between interaction topics, improves with Persian-language prompts, and exhibits gender-based asymmetries. We also show that responses rated “polite” by standard metrics often violate taarof norms, indicating the limitations of Western politeness frameworks. Through supervised fine-tuning and Direct Preference Optimization, we achieve 21.8% and 42.3% improvement in model alignment with cultural expectations. Our human study with 33 participants (11 native Persian, 11 heritage, and 11 non-Iranian
-speakers) forms baselines in varying degrees of familiarity with Persian norms. This work lays the foundation for developing diverse and culturally aware LLMs, enabling applications that better navigate complex social interactions.
+The figure below illustrates how **TAAROFBENCH** evaluates model understanding of *taarof* in LLMs.  
+
+![Overview of TAAROFBENCH](Overview.png)
 
 ---
 
@@ -44,7 +45,7 @@ We evaluate five state-of-the-art LLMs on TAAROFBENCH and compare their performa
 | GPT-4o           | 38.6%           | 88.4%      | 56.2%   |
 | Claude 3.5       | 37.0%           | 85.7%      | 52.4%   |
 | DeepSeek V3      | 40.7%           | 90.5%      | **56.2%** |
-| Dorna            | 40.7%           | 81.8%      | 52.0%   |
+| Dorna (Persian LLM)     | 40.7%           | 81.8%      | 52.0%   |
 | Llama-3-8B       | **42.0%**       | 87.1%      | 54.8%   |
 | Llama-3-8B + SFT | 57.6%           | 92.3%      | 65.7%   |
 | Llama-3-8B + DPO | **79.5%**       | 93.3%      | **73.2%** |
