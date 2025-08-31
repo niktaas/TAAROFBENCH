@@ -12,7 +12,9 @@ This repository hosts **TAAROFBENCH**, the first benchmark for evaluating large 
 
 The figure below illustrates how **TAAROFBENCH** evaluates model understanding of *taarof* in LLMs.  
 
-![Overview of TAAROFBENCH](Overview.png)
+<p align="center">
+  <img src="Overview.png" alt="Overview of TAAROFBENCH" width="500"/>
+</p>
 
 ---
 
