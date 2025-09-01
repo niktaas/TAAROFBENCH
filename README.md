@@ -27,6 +27,31 @@ Each scenario in **TAAROFBENCH** is represented with the following fields:
 
 ---
 
+## ⚙️ Code Overview & Usage
+
+Install required packages:
+
+```bash
+pip install pandas datasets openai trl transformers
+```
+
+Optional (only if you plan to fine-tune):
+
+- **SFT** with Predibase → see the [Predibase SDK install instructions](https://docs.predibase.com)  
+- **DPO** with Unsloth → install [Unsloth](https://github.com/unslothai/unsloth)
+
+### 📁 `evaluation/`
+**`evaluation.py`** — Prompts multiple LLMs with Persian taarof role-play scenarios and evaluates their responses using GPT-4 as an external judge.
+
+### 📁 `adaption/` (Fine-Tuning Utilities)
+
+1) **`sft.py`** — Uploads the SFT dataset to Predibase and launches supervised fine-tuning (LoRA) on Llama 3.  
+
+
+2) **`dpo.py`** — Runs **Direct Preference Optimization** with Unsloth on Llama 3.  
+
+---
+
 ## 📈 Results Snapshot
 
 We evaluate five state-of-the-art LLMs on TAAROFBENCH and compare their performance with human baselines. Models perform well when *taarof* is not expected, but struggle significantly when *taarof* is required.
