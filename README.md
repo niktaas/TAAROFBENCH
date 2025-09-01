@@ -40,7 +40,7 @@ We evaluate five state-of-the-art LLMs on TAAROFBENCH and compare their performa
 | Llama-3-8B       | **42.0%**       | 87.1%      | 54.8%   |
 | Llama-3-8B + SFT | 57.6%           | 92.3%      | 65.7%   |
 | Llama-3-8B + DPO | **79.5%**       | 93.3%      | **73.2%** |
-| **Humans (Native)** | **81.8%**    | **90.9%**      | **85%** |
+| **Humans (Native)** | **81.8%**    | **90.9%**      | **84.83%** |
 
 ---
 
