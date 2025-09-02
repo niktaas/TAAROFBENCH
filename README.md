@@ -7,7 +7,7 @@ This repository hosts **TAAROFBENCH**, the first benchmark for evaluating large 
 > *Accepted at the **Main Conference of EMNLP 2025***  
 
 <p align="center">
-  <img src="taarof.jpg" width="600" />
+  <img src="taarof.jpg" width="500" />
 </p>
 
 ## 📂 Dataset
