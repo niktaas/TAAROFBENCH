@@ -61,7 +61,7 @@ We evaluate five state-of-the-art LLMs on TAAROFBENCH and compare their performa
 | DeepSeek V3      | 36.6%           | 92.8%      | **56.2%** |
 | Dorna (Persian LLM)     | 40.7%           | 76.2%      | 52.2%   |
 | Llama-3-8B       | **41.7%**       | 82.0%      | 54.8%   |
-| Llama-3-8B + SFT | 57.6%           | 77.7%      | 63.8%   |
+| Llama-3-8B + SFT | 58.9%           | 77.7%      | 63.8%   |
 | Llama-3-8B + DPO | **79.4%**       | 70.3%      | **77.1%** |
 | **Humans (Native)** | **81.8%**    | **90.9%**      | **84.8%** |
 
