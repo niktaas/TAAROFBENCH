@@ -42,10 +42,10 @@ Optional (only if you plan to fine-tune):
 
 ### 📁 `adaption/` 
 
-1) **`sft.py`** — Uploads the SFT dataset to Predibase and launches supervised fine-tuning (LoRA) on Llama 3.  
+1) **`sft.py`** — Uploads the SFT dataset to Predibase and launches supervised fine-tuning (LoRA).  
 
 
-2) **`dpo.py`** — Runs **Direct Preference Optimization** with Unsloth on Llama 3.  
+2) **`dpo.py`** — Runs **Direct Preference Optimization** with Unsloth.  
 
 ---
 
