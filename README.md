@@ -7,8 +7,8 @@ This repository hosts **TAAROFBENCH**, the first benchmark for evaluating large 
 ## 📂 Dataset
 
 The **TAAROFBENCH** dataset operationalizes *taarof* as a structured computational task. It contains **450 role-play scenarios** spanning **12 interaction topics** (e.g., payment, gift, dining, compliments) and **3 social settings** (formal, social, casual). Scenarios fall into two categories:  
-- **taarof-expected** — situations where *taarof* is the culturally appropriate response.  
-- **non-taarof** — situations where *taarof* is not expected or inappropriate.
+- **taarof-expected**: situations where *taarof* is the culturally appropriate response.  
+- **non-taarof**: situations where *taarof* is not expected or inappropriate.
 
 Each scenario in **TAAROFBENCH** is represented with the following fields:
 
