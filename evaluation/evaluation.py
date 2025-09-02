@@ -41,7 +41,7 @@ def build_prompt(row):
     urole = row["User Role"].lower()
     mrole = row["LLM Role"].lower()
     context = row["Context"]
-    utterance = row["Uterrance"].lower()
+    utterance = row["Utterance"].lower()
 
     return f"""
 Let's engage in a roleplay exercise. Please answer based on the scenario and the role assigned to you. Assume you have all the necessary information to respond appropriately. Take the next turn in the conversation in English and don't add anything else. Begin your response by "I say:"
