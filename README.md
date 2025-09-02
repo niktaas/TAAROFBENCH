@@ -39,7 +39,7 @@ Optional (only if you plan to fine-tune):
 
  `evaluation/`
  
-**`evaluation.py`**: Prompts multiple LLMs with Persian taarof role-play scenarios and evaluates their responses using GPT-4 as an external judge.
+**`evaluation.py`**: Prompts LLMs with Persian taarof role-play scenarios and evaluates their responses using GPT-4 as an external judge.
 
  `adaption/` 
 
