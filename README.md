@@ -40,7 +40,7 @@ Optional (only if you plan to fine-tune):
 ### 📁 `evaluation/`
 **`evaluation.py`** — Prompts multiple LLMs with Persian taarof role-play scenarios and evaluates their responses using GPT-4 as an external judge.
 
-### 📁 `adaption/` (Fine-Tuning Utilities)
+### 📁 `adaption/` 
 
 1) **`sft.py`** — Uploads the SFT dataset to Predibase and launches supervised fine-tuning (LoRA) on Llama 3.  
 
