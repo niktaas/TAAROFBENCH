@@ -65,7 +65,6 @@ def main():
     print("Loading DPO dataset...")
     dpo_dataset = load_from_disk(DPO_DATA_PATH)
 
-    print("Patching trainer for reward modeling...")
     PatchDPOTrainer()
 
     print("Starting DPO training...")
