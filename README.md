@@ -38,6 +38,7 @@ Optional (only if you plan to fine-tune):
 - **DPO** with Unsloth → install [Unsloth](https://github.com/unslothai/unsloth)
 
  `evaluation/`
+ 
 **`evaluation.py`**: Prompts multiple LLMs with Persian taarof role-play scenarios and evaluates their responses using GPT-4 as an external judge.
 
  `adaption/` 
