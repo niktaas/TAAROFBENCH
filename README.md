@@ -55,14 +55,14 @@ We evaluate five state-of-the-art LLMs on TAAROFBENCH and compare their performa
 
 | Model            | Taarof-Expected | Non-Taarof | Overall |
 |------------------|-----------------|------------|---------|
-| GPT-4o           | 38.6%           | 88.4%      | 56.2%   |
-| Claude 3.5       | 37.0%           | 85.7%      | 52.4%   |
-| DeepSeek V3      | 40.7%           | 90.5%      | **56.2%** |
-| Dorna (Persian LLM)     | 40.7%           | 81.8%      | 52.0%   |
-| Llama-3-8B       | **42.0%**       | 87.1%      | 54.8%   |
-| Llama-3-8B + SFT | 57.6%           | 92.3%      | 65.7%   |
-| Llama-3-8B + DPO | **79.5%**       | 93.3%      | **73.2%** |
-| **Humans (Native)** | **81.8%**    | **90.9%**      | **84.83%** |
+| GPT-4o           | 33.8%           | 91.4%      | 52.44%   |
+| Claude 3.5       | 36.5%           | 84.2%      | 52.0%   |
+| DeepSeek V3      | 36.6%           | 92.8%      | **56.2%** |
+| Dorna (Persian LLM)     | 40.7%           | 76.2%      | 52.21%   |
+| Llama-3-8B       | **41.7%**       | 82.0%      | 54.8%   |
+| Llama-3-8B + SFT | 57.6%           | 77.7%      | 63.8%   |
+| Llama-3-8B + DPO | **79.4%**       | 70.3%      | **77.1%** |
+| **Humans (Native)** | **81.8%**    | **90.9%**      | **84.8%** |
 
 ---
 
