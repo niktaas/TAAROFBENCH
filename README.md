@@ -6,7 +6,9 @@ This repository hosts **TAAROFBENCH**, the first benchmark for evaluating large 
 > Nikta Gohari Sadr, Sahar Heidariasl, Karine Megerdoomian, Laleh Seyyed-Kalantari, and Ali Emami  
 > *Accepted at the **Main Conference of EMNLP 2025***  
 
-![Alt text](taarof.jpg)
+<p align="center">
+  <img src="images/taarof.jpg" width="500" />
+</p>
 
 ## 📂 Dataset
 
