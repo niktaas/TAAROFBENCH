@@ -1,10 +1,4 @@
-# We Politely Insist: Your LLM Must Learn the Persian Art of Taarof
-
-This repository hosts **TAAROFBENCH**, the first benchmark for evaluating large language models on *taarof*, a social norm in Iranian interactions that represents a sophisticated system of ritual politeness emphasizing deference, modesty, and indirectness. The benchmark was introduced in the paper:
-
-> **We Politely Insist: Your LLM Must Learn the Persian Art of Taarof**  
-> Nikta Gohari Sadr, Sahar Heidariasl, Karine Megerdoomian, Laleh Seyyed-Kalantari, and Ali Emami  
-> *Accepted at the **Main Conference of EMNLP 2025***  
+This repository hosts **TAAROFBENCH**, the first benchmark for evaluating large language models on *taarof*, a social norm in Iranian interactions that represents a sophisticated system of ritual politeness emphasizing deference, modesty, and indirectness. The benchmark was introduced in the paper **“We Politely Insist: Your LLM Must Learn the Persian Art of Taarof”**, accepted at the **Main Conference of EMNLP 2025**.
 
 <p align="center">
   <img src="taarof.jpg" width="500" />
