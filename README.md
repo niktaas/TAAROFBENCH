@@ -37,15 +37,15 @@ Optional (only if you plan to fine-tune):
 - **SFT** with Predibase → see the [Predibase SDK install instructions](https://docs.predibase.com)  
 - **DPO** with Unsloth → install [Unsloth](https://github.com/unslothai/unsloth)
 
-### 📁 `evaluation/`
-**`evaluation.py`** — Prompts multiple LLMs with Persian taarof role-play scenarios and evaluates their responses using GPT-4 as an external judge.
+ `evaluation/`
+**`evaluation.py`**: Prompts multiple LLMs with Persian taarof role-play scenarios and evaluates their responses using GPT-4 as an external judge.
 
-### 📁 `adaption/` 
+ `adaption/` 
 
-1) **`sft.py`** — Uploads the SFT dataset to Predibase and launches supervised fine-tuning (LoRA).  
+1) **`sft.py`**: Launches supervised fine-tuning (SFT) of a base model on Predibase. 
 
 
-2) **`dpo.py`** — Runs **Direct Preference Optimization** with Unsloth.  
+2) **`dpo.py`**: Runs **Direct Preference Optimization** with Unsloth.  
 
 ---
 
